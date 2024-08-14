@@ -31,7 +31,7 @@ The COMFOCUS Ontology is distributed under the [Creative Commons Attribution 4.0
 We welcome contributions and feedback from the community. If you encounter any issues or have suggestions for improvements, please use the [Issues](https://github.com/comfocus/ontology/issues) section of this repository to report them. Here's how you can get involved:
 - **Create a New Issue:** Report bugs, request features, or suggest enhancements by opening a new issue.
 - **Follow the Discussion:** Engage in ongoing discussions around existing issues and contribute your insights.
-- **Submit Pull Requests:** If you would like to contribute directly to the development of the ontology, feel free to fork the repository, make changes, and submit a pull request. Please ensure that your contributions adhere to the guidelines provided in the `CONTRIBUTING.md` file (if available).
+- **Submit Pull Requests:** If you would like to contribute directly to the development of the ontology, feel free to fork the repository, make changes, and submit a pull request. Please ensure that your contributions adhere to the guidelines provided in the `CONTRIBUTING.md` file.
 
 ## Contact and Support
 
