@@ -1,6 +1,6 @@
 # COMFOCUS Ontology
 
-![COMFOCUS Logo](images/images.png) ![EU Funded](images/eu_funded_en.jpg)
+![COMFOCUS Logo](images/images.png) 
 
 Welcome to the official repository for the COMFOCUS Ontology, a comprehensive resource developed to support research and data integration within the field of food consumer science. This ontology is designed to harmonize and standardize data collected from various studies, ensuring semantic interoperability and supporting advanced analytical methods.
 
@@ -36,3 +36,4 @@ We welcome contributions and feedback from the community. If you encounter any i
 ## Contact and Support
 
 For further inquiries or support, please contact the COMFOCUS project team at [comfocus@wur.nl] or visit our [project website](https://comfocus.eu/).
+![EU Funded](images/eu_funded_en.jpg)
