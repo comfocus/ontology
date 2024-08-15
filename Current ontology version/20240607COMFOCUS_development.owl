@@ -14,9 +14,11 @@
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="BCIO" IRI="http://purl.obolibrary.org/obo/BCIO#"/>
     <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="FOODON" IRI="http://purl.obolibrary.org/obo/FOODON#"/>
     <Prefix name="schema" IRI="https://schema.org/"/>
     <Prefix name="OntoV24" IRI="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#"/>
     <Prefix name="COMFOCUS" IRI="https://comfocus.eu/ontology/2024/8/14/"/>
@@ -54,6 +56,72 @@ Royer Clarisse</Literal>
         <Literal>2024-08-14</Literal>
     </Annotation>
     <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_006095"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_006158"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036024"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050437"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050438"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050439"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050440"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050441"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050443"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050457"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050809"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050812"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050813"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050818"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050819"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050827"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050832"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050834"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050838"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050846"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.bioontology.org/ontology/SNOMEDCT/406221003"/>
     </Declaration>
     <Declaration>
@@ -66,6 +134,9 @@ Royer Clarisse</Literal>
         <Class abbreviatedIRI="obo:FOODON_00001002"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:FOODON_00002403"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:IAO_0000030"/>
     </Declaration>
     <Declaration>
@@ -76,6 +147,9 @@ Royer Clarisse</Literal>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:NBO_0001845"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OGMS_0000060"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:ONS_0000085"/>
@@ -3313,6 +3387,15 @@ Royer Clarisse</Literal>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="https://comfocus.eu/ontology/#has_items_from_classification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="OWLObjectProperty_00000000"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="OWLObjectProperty_00000001"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="OWLObjectProperty_00000002"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="schema:has_language"/>
@@ -9887,6 +9970,453 @@ Royer Clarisse</Literal>
     <Declaration>
         <Datatype abbreviatedIRI="xsd:gMonth"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050398"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050399"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036059"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036057"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036056"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036054"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050368"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036042"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036041"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036047"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050371"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050372"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050374"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036029"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036035"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036034"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036026"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036025"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036086"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036089"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036073"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036072"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036061"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036066"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050410"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050411"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050413"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050421"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050426"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036112"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050442"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050456"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050458"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050459"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050460"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="obo:FOODON_00002420"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050840"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050841"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050802"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050811"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050815"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050821"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036034"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036025"/>
+            <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050457"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050460"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036029"/>
+            <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050457"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_006095"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_006158"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+        <Class abbreviatedIRI="obo:OGMS_0000060"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://comfocus.eu/ontology/COMFOCUS_00000418"/>
+            <Class IRI="https://comfocus.eu/ontology/#OWLClass_e4e159af_6a15_40dd_83ba_93d1596f1022"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036007"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050439"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036008"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050443"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036011"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050441"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036014"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036075"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036021"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050457"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036024"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036025"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050441"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036026"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050440"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036027"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050439"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036029"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050440"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036030"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050443"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036034"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050457"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036035"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050441"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036041"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050443"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036042"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050437"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036047"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050443"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036054"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050438"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036056"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050438"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036057"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050438"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036059"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050440"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036061"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050439"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036066"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050441"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036072"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050441"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036073"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050443"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036075"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036086"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050441"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036089"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050441"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036112"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050443"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050368"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050371"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050372"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050374"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050457"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050398"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036075"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050399"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050437"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050410"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050437"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050411"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050413"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050437"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050421"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050443"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050426"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050439"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050437"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050438"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050439"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050440"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050441"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050442"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050457"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050443"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050456"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050457"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050457"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050458"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050457"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050459"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050457"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050802"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050818"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050809"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050811"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050834"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050812"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050813"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050815"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050457"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050818"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050819"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050821"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050437"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050827"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050832"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050834"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050838"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050840"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050818"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050841"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050443"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050846"/>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.bioontology.org/ontology/SNOMEDCT/406221003"/>
         <Class abbreviatedIRI="obo:BFO_0000016"/>
@@ -9908,7 +10438,22 @@ Royer Clarisse</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_00001002"/>
+        <Class abbreviatedIRI="obo:FOODON_00002403"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:FOODON_00001002"/>
         <Class IRI="https://comfocus.eu/ontology/COMFOCUS_00000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:FOODON_00001002"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="OWLObjectProperty_00000001"/>
+            <Class IRI="https://comfocus.eu/ontology/#OWLClass_e4e159af_6a15_40dd_83ba_93d1596f1022"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:FOODON_00002403"/>
+        <Class abbreviatedIRI="obo:BFO_0000040"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:IAO_0000030"/>
@@ -9925,6 +10470,10 @@ Royer Clarisse</Literal>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NBO_0001845"/>
         <Class abbreviatedIRI="obo:NBO_0000313"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OGMS_0000060"/>
+        <Class abbreviatedIRI="obo:BFO_0000015"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:ONS_0000085"/>
@@ -19899,6 +20448,20 @@ Royer Clarisse</Literal>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="https://comfocus.eu/ontology/#OWLClass_e4e159af_6a15_40dd_83ba_93d1596f1022"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="OWLObjectProperty_00000000"/>
+            <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://comfocus.eu/ontology/#OWLClass_e4e159af_6a15_40dd_83ba_93d1596f1022"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="OWLObjectProperty_00000002"/>
+            <Class abbreviatedIRI="obo:FOODON_00001002"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="https://comfocus.eu/ontology/#holiday"/>
         <Class abbreviatedIRI="obo:BFO_0000038"/>
     </SubClassOf>
@@ -28870,6 +29433,10 @@ Royer Clarisse</Literal>
         <ObjectProperty IRI="https://comfocus.eu/ontology/#has_items_from_classification"/>
         <ObjectProperty IRI="https://comfocus.eu/ontology/COMFOCUS_00000436"/>
     </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="OWLObjectProperty_00000002"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty abbreviatedIRI="obo:RO_0000052"/>
         <ObjectProperty abbreviatedIRI="obo:RO_0000053"/>
@@ -28909,6 +29476,10 @@ Royer Clarisse</Literal>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="https://comfocus.eu/ontology/COMFOCUS_00000436"/>
     </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="obo:FOODON_00002420"/>
+        <Class abbreviatedIRI="obo:FOODON_00002403"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="obo:RO_0000058"/>
         <Class abbreviatedIRI="obo:BFO_0000031"/>
@@ -28969,6 +29540,10 @@ Royer Clarisse</Literal>
         <ObjectProperty abbreviatedIRI="schema:is_located_in"/>
         <Class abbreviatedIRI="obo:BFO_0000141"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="obo:FOODON_00002420"/>
+        <Class abbreviatedIRI="obo:FOODON_00001002"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="obo:RO_0000053"/>
         <Class abbreviatedIRI="obo:BFO_0000020"/>
@@ -29042,6 +29617,421 @@ Royer Clarisse</Literal>
         <Datatype abbreviatedIRI="xsd:double"/>
     </DataPropertyRange>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_006095</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_006095</IRI>
+        <Literal>An &lt;individual human behaviour&gt; that is commonly enacted by people that are part of a social environmental system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_006095</IRI>
+        <Literal>Normative behaviour can be an MoA or outcome depending on how &apos;normative behaviour&apos; is described in an intervention. The Behaviour Change-Intervention Ontology includes the class &apos;outcome behaviour&apos; (definition: Human behavior that is an intervention outcome.), which would not be an MoA. When an intervention targets a normative behaviour to achieve an outcome behaviour, the former qualifies as an MoA.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_006095</IRI>
+        <Literal>normative behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_006158</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_006158</IRI>
+        <Literal>An &lt;individual human behaviour&gt; that results from a learnt stimulus-behaviour co-occurrence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_006158</IRI>
+        <Literal>A learnt stimulus-behaviour co-occurrence can lead to activation or execution of a habitual behaviour.
+
+Habitual behaviour can be an MoA or outcome depending on how &apos;habitual behaviour&apos; is described in an intervention. The Behaviour Change-Intervention Ontology includes the class &apos;outcome behaviour&apos; (definition: Human behavior that is an intervention outcome.), which would not be an MoA. When an intervention targets a habitual behaviour to achieve an outcome behaviour, the former qualifies as an MoA.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_006158</IRI>
+        <Literal>habitual behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_036000</IRI>
+        <Literal>Also referred to in definitions as human behaviour or just behaviour.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_036000</IRI>
+        <Literal>walks for 15 mins/day, never eats meat, attends school daily</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_036000</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_036000</IRI>
+        <Literal>A &lt;bodily process&gt; of a human that involves co-ordinated contraction of striated muscles controlled by the brain.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_036000</IRI>
+        <Literal>A bodily process of a human that involves co-ordinated contraction of striated muscles controlled by the brain.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_036000</IRI>
+        <Literal>human behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_036000</IRI>
+        <Literal> it is concerned with moving skeletal parts to which it is usually attached.&apos; (https://www.collinsdictionary.com/dictionary/english/striped-muscle)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_036000</IRI>
+        <Literal>Striated muscles referred to in the definition do not ordinarily involve cardiac muscles.
+
+Behaviours are usually in response to an internal or external stimuli.
+
+Every behaviour is associated with mental processes, but not every mental process is associated with behaviour. For instance, a verbal communication behaviour will involve mental processes to produce speech. However, mental processes associated with listening can occur without a person performing a behaviour.
+
+&apos;behaviours&apos; can involve a series of activities (e.g., more granular behaviours).
+
+&apos;A &apos;striated muscle&apos; can defined as &apos;a type of contractile tissue that is marked by transverse striations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_036000</IRI>
+        <Literal>individual human behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_036024</IRI>
+        <Literal>Nail-cutting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_036024</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_036024</IRI>
+        <Literal>An individual human behaviour that attends to one’s own hygiene, comfort or appearance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_036024</IRI>
+        <Literal>Behaviour relating to supporting the personal care of others can be captured under the class &apos;social support behaviour&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_036024</IRI>
+        <Literal>personal bodily care behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_036075</IRI>
+        <Literal>Vandalism, Sabotaging, Polluting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_036075</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_036075</IRI>
+        <Literal>An individual human behaviour that causes net harm.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_036075</IRI>
+        <Literal>harmful behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050437</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050437</IRI>
+        <Literal>An individual human behaviour that relates to health.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050437</IRI>
+        <Literal>health-related behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050438</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050438</IRI>
+        <Literal>An individual human behaviour related to vital bodily functions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050438</IRI>
+        <Literal>life function-related behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050439</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050439</IRI>
+        <Literal>An individual human behaviour that relates to a material entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050439</IRI>
+        <Literal>material entity-related behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050440</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050440</IRI>
+        <Literal>An individual human behaviour that relates to the enactor&apos;s posture or location.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050440</IRI>
+        <Literal>position-related behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050441</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050441</IRI>
+        <Literal>An &lt;individual human behaviour&gt; that relates to the social environment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050441</IRI>
+        <Literal>An individual human behaviour that relates to the social environment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050441</IRI>
+        <Literal>socially-related behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050443</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050443</IRI>
+        <Literal>An individual human behaviour that relates to some subjective experience of the behaving person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050443</IRI>
+        <Literal>experience-related behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050457</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050457</IRI>
+        <Literal>An &lt;individual human behaviour&gt; that conveys a thought or feeling.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050457</IRI>
+        <Literal>An individual human behaviour that conveys a thought or feeling.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050457</IRI>
+        <Literal>expressive behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050809</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050809</IRI>
+        <Literal>An individual human behaviour that has the goal to reduce harm or discomfort.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050809</IRI>
+        <Literal>coping behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050812</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050812</IRI>
+        <Literal>An individual human behaviour within a residential facility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050812</IRI>
+        <Literal>domestic behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050813</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050813</IRI>
+        <Literal>An individual human behaviour that is emotionally driven.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050813</IRI>
+        <Literal>emotional behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050818</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050818</IRI>
+        <Literal>An individual human behaviour that has a behavioural goal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050818</IRI>
+        <Literal>goal-directed behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050819</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050819</IRI>
+        <Literal>An individual human behaviour that has an outcome to prevent harm.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050819</IRI>
+        <Literal>harm preventing behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050827</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050827</IRI>
+        <Literal>An individual human behaviour that is the target of an intervention and has been previously enacted.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050827</IRI>
+        <Literal>This is a relational class (relates one behaviour to another).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050827</IRI>
+        <Literal>past occurrence of a target behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050832</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050832</IRI>
+        <Literal>An individual human behaviour that is reflectively driven.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050832</IRI>
+        <Literal>reflective behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050834</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050834</IRI>
+        <Literal>An individual human behaviour that involves monitoring and acting upon some parts of the person or their environment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050834</IRI>
+        <Literal>Environment here includes the social and physical environment and includes behaviours involved in monitoring of others or self, action planning, and goal setting.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050834</IRI>
+        <Literal>regulatory behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050838</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050838</IRI>
+        <Literal>An individual human behaviour that occurs after the behaviour has been subject to extinction in operant learning.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050838</IRI>
+        <Literal>spontaneous recovery behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050846</IRI>
+        <Literal>Published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050846</IRI>
+        <Literal>An &lt;individual human behaviour&gt; in which a person substitutes a more desired behaviour for a less desired behaviour.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://humanbehaviourchange.org/ontology/BCIO_050846</IRI>
+        <Literal>behavioural substitution</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
         <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/406221003</IRI>
         <IRI>http://orcid.org/0000-0001-7597-2590</IRI>
@@ -29087,6 +30077,26 @@ Royer Clarisse</Literal>
         <Literal xml:lang="en">chemical substance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:FOODON_00001002</AbbreviatedIRI>
+        <Literal xml:lang="en">Food material for humans and animals which is processed with the intention that it be consumable as a whole or added to other food products.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:FOODON_00001002</AbbreviatedIRI>
+        <Literal xml:lang="en">Damion Dooley</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:FOODON_00001002</AbbreviatedIRI>
+        <Literal xml:lang="en">Foodon product type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:FOODON_00001002</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
         <AbbreviatedIRI>obo:FOODON_00001002</AbbreviatedIRI>
         <IRI>http://orcid.org/0000-0001-7597-2590</IRI>
@@ -29097,9 +30107,54 @@ Royer Clarisse</Literal>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T13:35:29Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:FOODON_00001002</AbbreviatedIRI>
+        <Literal xml:lang="en">The FoodOn &quot;food product&quot; class is provided as a branch under which new food product categories and food products themselves can be placed. Here classes are provided to differentiate a food product by its food composition, processing and/or consumption characteristics. This avoids brand name products but it may include generic food dish categories. It has a much greater depth and polyhierarchy than other agency product type schemes have in an effort to group related products together.  The upper level basis of this tree originated in the environment ontology (ENVO) and from the US Code of Federal Regulations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:FOODON_00001002</AbbreviatedIRI>
         <Literal xml:lang="en">food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:FOODON_00002403</AbbreviatedIRI>
+        <Literal xml:lang="en">Any substance that can be consumed by an organism to satisfy nutritional or other health needs, or to provide a social or organoleptic food experience</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:FOODON_00002403</AbbreviatedIRI>
+        <IRI>https://en.wikipedia.org/wiki/Food</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:FOODON_00002403</AbbreviatedIRI>
+        <Literal xml:lang="en">food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:FOODON_00002403</AbbreviatedIRI>
+        <Literal xml:lang="en">foodstuff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:FOODON_00002403</AbbreviatedIRI>
+        <Literal xml:lang="en">nourishment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:FOODON_00002403</AbbreviatedIRI>
+        <Literal xml:lang="en">sustenance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:FOODON_00002403</AbbreviatedIRI>
+        <Literal xml:lang="en">This class is the top of FOODON&apos;s main food product hierarchy which is described in the https://www.foodon.org website, and can be searched in lookup services like https://www.ebi.ac.uk/ols/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:FOODON_00002403</AbbreviatedIRI>
+        <Literal xml:lang="en">food material</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -29210,6 +30265,61 @@ Royer Clarisse</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:NBO_0001845</AbbreviatedIRI>
         <Literal xml:lang="en">consumption behavior</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:OGMS_0000060</AbbreviatedIRI>
+        <Literal>The phrase &apos;bodily component of an organism in the definition refers to a part of the body.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OGMS_0000060</AbbreviatedIRI>
+        <Literal>External</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OGMS_0000060</AbbreviatedIRI>
+        <Literal>A &lt;process&gt; in which at least one bodily component of an organism participates.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OGMS_0000060</AbbreviatedIRI>
+        <Literal>A process in which at least one bodily component of an organism participates.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OGMS_0000060</AbbreviatedIRI>
+        <Literal>A process in which at least one bodily component of an organsim participates.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OGMS_0000060</AbbreviatedIRI>
+        <Literal>Albert Goldfain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OGMS_0000060</AbbreviatedIRI>
+        <Literal>http://www.jbiomedsem.com/content/1/1/10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <AbbreviatedIRI>obo:OGMS_0000060</AbbreviatedIRI>
+        <Literal>creation date: 2009-06-23T11:53:49Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:OGMS_0000060</AbbreviatedIRI>
+        <Literal>From OGMS: http://purl.obolibrary.org/obo/OGMS_0000060</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:OGMS_0000060</AbbreviatedIRI>
+        <Literal>The phrase &apos;bodily component of an organism’ in the definition refers to ‘a part of the body’.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OGMS_0000060</AbbreviatedIRI>
+        <Literal>bodily process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
@@ -60644,6 +61754,21 @@ https://dictionary.cambridge.org/dictionary/english/holiday</Literal>
 https://www.merriam-webster.com/dictionary/language</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>OWLObjectProperty_00000000</IRI>
+        <Literal xml:lang="en">has_behaviour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>OWLObjectProperty_00000001</IRI>
+        <Literal xml:lang="en">is_consumed_by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>OWLObjectProperty_00000002</IRI>
+        <Literal xml:lang="en">consumes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>schema:has_language</AbbreviatedIRI>
         <Literal>Language can describe a data set, people, country and more. Therefore there is a link with &quot;information content entity&quot;. There is also a link to continuant because language can also describe the geographical location</Literal>
@@ -60665,7 +61790,7 @@ https://www.merriam-webster.com/dictionary/language</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="https://comfocus.eu/ontology/#OWLAnnotationProperty_7a00b921_35a6_436e_b899_e5cab7cc41f9"/>
-        <AnonymousIndividual nodeID="_:genid2147483766"/>
+        <AnonymousIndividual nodeID="_:genid2147484211"/>
         <Literal>Age; COMFOCUS</Literal>
     </AnnotationAssertion>
     <DatatypeDefinition>
