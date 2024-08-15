@@ -65,10 +65,121 @@ Royer Clarisse</Literal>
         <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036021"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036024"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036025"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036026"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036029"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036034"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036035"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036041"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036042"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036047"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036054"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036056"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036057"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036059"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036061"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036066"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036072"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036073"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036086"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036089"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036112"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050368"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050371"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050372"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050374"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050398"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050399"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050410"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050411"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050413"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050421"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050426"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050437"/>
@@ -86,13 +197,34 @@ Royer Clarisse</Literal>
         <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050441"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050442"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050443"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050456"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050457"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050458"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050459"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050460"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050802"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050809"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050811"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050812"/>
@@ -101,10 +233,16 @@ Royer Clarisse</Literal>
         <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050813"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050815"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050818"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050819"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050821"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050827"/>
@@ -117,6 +255,12 @@ Royer Clarisse</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050838"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050840"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050841"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050846"/>
@@ -135,6 +279,24 @@ Royer Clarisse</Literal>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:FOODON_00002403"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:FOODON_00002645"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:FOODON_00004277"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:FOODON_00004710"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:FOODON_03430154"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:FOODON_03530151"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:FOODON_03601004"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:IAO_0000030"/>
@@ -9923,6 +10085,9 @@ Royer Clarisse</Literal>
         <AnnotationProperty abbreviatedIRI="obo:COMFOCUS_00000003"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
     </Declaration>
     <Declaration>
@@ -9971,154 +10136,16 @@ Royer Clarisse</Literal>
         <Datatype abbreviatedIRI="xsd:gMonth"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050398"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050399"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasSynonym"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036059"/>
+        <AnnotationProperty abbreviatedIRI="terms:date"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036057"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036056"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036054"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050368"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036042"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036041"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036047"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050371"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050372"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050374"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036029"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036030"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036035"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036034"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036027"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036026"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036025"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036021"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036086"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036089"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036073"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036072"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036061"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036066"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050410"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050411"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050413"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050421"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050426"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036112"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050442"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050456"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050458"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050459"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050460"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="obo:FOODON_00002420"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036008"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036007"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036014"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036011"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050840"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050841"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050802"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050811"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050815"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_050821"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AnnotationProperty abbreviatedIRI="terms:contributor"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036034"/>
@@ -10426,23 +10453,12 @@ Royer Clarisse</Literal>
         <Class abbreviatedIRI="obo:BFO_0000030"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="obo:CHEBI_24431"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="https://comfocus.eu/ontology/COMFOCUS_00000350"/>
-            <Class abbreviatedIRI="obo:FOODON_00001002"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="obo:CHEBI_59999"/>
         <Class abbreviatedIRI="obo:CHEBI_24431"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_00001002"/>
         <Class abbreviatedIRI="obo:FOODON_00002403"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_00001002"/>
-        <Class IRI="https://comfocus.eu/ontology/COMFOCUS_00000001"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_00001002"/>
@@ -10454,6 +10470,30 @@ Royer Clarisse</Literal>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_00002403"/>
         <Class abbreviatedIRI="obo:BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:FOODON_00002645"/>
+        <Class abbreviatedIRI="obo:FOODON_00001002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:FOODON_00004277"/>
+        <Class abbreviatedIRI="obo:FOODON_00001002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:FOODON_00004710"/>
+        <Class abbreviatedIRI="obo:FOODON_00001002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:FOODON_03430154"/>
+        <Class abbreviatedIRI="obo:FOODON_00001002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:FOODON_03530151"/>
+        <Class abbreviatedIRI="obo:FOODON_00001002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:FOODON_03601004"/>
+        <Class abbreviatedIRI="obo:FOODON_00001002"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:IAO_0000030"/>
@@ -10482,13 +10522,6 @@ Royer Clarisse</Literal>
     <SubClassOf>
         <Class abbreviatedIRI="obo:ONS_0000085"/>
         <Class abbreviatedIRI="obo:BFO_0000027"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:ONS_0000085"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="https://comfocus.eu/ontology/COMFOCUS_00000436"/>
-            <Class abbreviatedIRI="obo:FOODON_00001002"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/ogms.owl#SCTO_272379006"/>
@@ -10561,44 +10594,16 @@ Royer Clarisse</Literal>
         <Class abbreviatedIRI="obo:BFO_0000027"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://comfocus.eu/ontology/COMFOCUS_00000007"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="https://comfocus.eu/ontology/COMFOCUS_00000436"/>
-            <Class abbreviatedIRI="obo:FOODON_00001002"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="https://comfocus.eu/ontology/COMFOCUS_00000008"/>
         <Class abbreviatedIRI="obo:BFO_0000027"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://comfocus.eu/ontology/COMFOCUS_00000008"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="https://comfocus.eu/ontology/COMFOCUS_00000436"/>
-            <Class abbreviatedIRI="obo:FOODON_00001002"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="https://comfocus.eu/ontology/COMFOCUS_00000009"/>
         <Class abbreviatedIRI="obo:BFO_0000027"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://comfocus.eu/ontology/COMFOCUS_00000009"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="https://comfocus.eu/ontology/COMFOCUS_00000436"/>
-            <Class abbreviatedIRI="obo:FOODON_00001002"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="https://comfocus.eu/ontology/COMFOCUS_00000010"/>
         <Class abbreviatedIRI="obo:BFO_0000027"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://comfocus.eu/ontology/COMFOCUS_00000010"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="https://comfocus.eu/ontology/COMFOCUS_00000436"/>
-            <Class abbreviatedIRI="obo:FOODON_00001002"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="https://comfocus.eu/ontology/COMFOCUS_00000013"/>
@@ -29477,10 +29482,6 @@ Royer Clarisse</Literal>
         <ObjectProperty IRI="https://comfocus.eu/ontology/COMFOCUS_00000436"/>
     </TransitiveObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="obo:FOODON_00002420"/>
-        <Class abbreviatedIRI="obo:FOODON_00002403"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="obo:RO_0000058"/>
         <Class abbreviatedIRI="obo:BFO_0000031"/>
     </ObjectPropertyDomain>
@@ -29540,10 +29541,6 @@ Royer Clarisse</Literal>
         <ObjectProperty abbreviatedIRI="schema:is_located_in"/>
         <Class abbreviatedIRI="obo:BFO_0000141"/>
     </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="obo:FOODON_00002420"/>
-        <Class abbreviatedIRI="obo:FOODON_00001002"/>
-    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="obo:RO_0000053"/>
         <Class abbreviatedIRI="obo:BFO_0000020"/>
@@ -30097,16 +30094,6 @@ Every behaviour is associated with mental processes, but not every mental proces
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Food</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <AbbreviatedIRI>obo:FOODON_00001002</AbbreviatedIRI>
-        <IRI>http://orcid.org/0000-0001-7597-2590</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:date"/>
-        <AbbreviatedIRI>obo:FOODON_00001002</AbbreviatedIRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T13:35:29Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>obo:FOODON_00001002</AbbreviatedIRI>
         <Literal xml:lang="en">The FoodOn &quot;food product&quot; class is provided as a branch under which new food product categories and food products themselves can be placed. Here classes are provided to differentiate a food product by its food composition, processing and/or consumption characteristics. This avoids brand name products but it may include generic food dish categories. It has a much greater depth and polyhierarchy than other agency product type schemes have in an effort to group related products together.  The upper level basis of this tree originated in the environment ontology (ENVO) and from the US Code of Federal Regulations.</Literal>
@@ -30155,6 +30142,141 @@ Every behaviour is associated with mental processes, but not every mental proces
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:FOODON_00002403</AbbreviatedIRI>
         <Literal xml:lang="en">food material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:FOODON_00002645</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:FOODON_00002645</AbbreviatedIRI>
+        <Literal xml:lang="en">A food product organized by the process which it results from.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:FOODON_00004277</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000428</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:FOODON_00004277</AbbreviatedIRI>
+        <Literal xml:lang="en">A food product which has regulatory restrictions about its origin, food processing or other characteristics.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:FOODON_00004277</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-8844-9165</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:date"/>
+        <AbbreviatedIRI>obo:FOODON_00004277</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-12T05:44:00Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:FOODON_00004277</AbbreviatedIRI>
+        <Literal xml:lang="en">regulated food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:FOODON_00004710</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:FOODON_00004710</AbbreviatedIRI>
+        <Literal xml:lang="en">Food material from a biofortified plant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:contributor"/>
+        <AbbreviatedIRI>obo:FOODON_00004710</AbbreviatedIRI>
+        <IRI>https://orcid.org/0000-0002-8844-9165</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:date"/>
+        <AbbreviatedIRI>obo:FOODON_00004710</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-28T23:11:45Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:FOODON_00004710</AbbreviatedIRI>
+        <Literal xml:lang="en">biofortified food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:FOODON_00004710</AbbreviatedIRI>
+        <IRI>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5817065/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:FOODON_03430154</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000428</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:FOODON_03430154</AbbreviatedIRI>
+        <Literal xml:lang="en">Food supplements are generally marketed in dose form designed to be taken in measured small unit quantities, such as pill, capsule, tablet, powder or liquid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:FOODON_03430154</AbbreviatedIRI>
+        <IRI>http://www.langual.org/langual_thesaurus.asp?termid=E0154</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasSynonym"/>
+        <AbbreviatedIRI>obo:FOODON_03430154</AbbreviatedIRI>
+        <Literal xml:lang="en">galenic formulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:FOODON_03430154</AbbreviatedIRI>
+        <Literal xml:lang="en">food supplement form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:FOODON_03530151</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000428</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:FOODON_03530151</AbbreviatedIRI>
+        <IRI>http://www.langual.org/langual_thesaurus.asp?termid=Z0151</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:FOODON_03530151</AbbreviatedIRI>
+        <Literal xml:lang="en">biotechnologically derived food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:FOODON_03601004</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:FOODON_03601004</AbbreviatedIRI>
+        <Literal xml:lang="en">A food product which does not have any packaging or where packaging is removed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:contributor"/>
+        <AbbreviatedIRI>obo:FOODON_03601004</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0001-8008-8249</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:contributor"/>
+        <AbbreviatedIRI>obo:FOODON_03601004</AbbreviatedIRI>
+        <Literal>https://orcid.org/0000-0001-5193-0062</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:date"/>
+        <AbbreviatedIRI>obo:FOODON_03601004</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-06T22:01:37Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:FOODON_03601004</AbbreviatedIRI>
+        <Literal xml:lang="en">unpackaged or non-packaged food</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -30579,7 +30701,7 @@ https://dictionary.cambridge.org/dictionary/english/year</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://comfocus.eu/ontology/COMFOCUS_00000004</IRI>
-        <Literal xml:lang="en">food consumer</Literal>
+        <Literal xml:lang="en">food consumer role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
@@ -30604,7 +30726,7 @@ https://dictionary.cambridge.org/dictionary/english/year</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://comfocus.eu/ontology/COMFOCUS_00000005</IRI>
-        <Literal xml:lang="en">researcher</Literal>
+        <Literal xml:lang="en">researcher role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
@@ -51269,7 +51391,7 @@ In Semantic differential questions, two statements are placed one at the far lef
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://comfocus.eu/ontology/#OWLClass_a2b5a3b4_ff12_4c8f_b41d_71f0a8f3ae4b</IRI>
-        <Literal xml:lang="en">respondent</Literal>
+        <Literal xml:lang="en">respondent role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -61790,7 +61912,7 @@ https://www.merriam-webster.com/dictionary/language</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="https://comfocus.eu/ontology/#OWLAnnotationProperty_7a00b921_35a6_436e_b899_e5cab7cc41f9"/>
-        <AnonymousIndividual nodeID="_:genid2147484211"/>
+        <AnonymousIndividual nodeID="_:genid2147483766"/>
         <Literal>Age; COMFOCUS</Literal>
     </AnnotationAssertion>
     <DatatypeDefinition>
