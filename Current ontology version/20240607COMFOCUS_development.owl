@@ -10461,13 +10461,6 @@ Royer Clarisse</Literal>
         <Class abbreviatedIRI="obo:FOODON_00002403"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_00001002"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="OWLObjectProperty_00000001"/>
-            <Class IRI="https://comfocus.eu/ontology/#OWLClass_e4e159af_6a15_40dd_83ba_93d1596f1022"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_00002403"/>
         <Class abbreviatedIRI="obo:BFO_0000040"/>
     </SubClassOf>
@@ -20457,13 +20450,6 @@ Royer Clarisse</Literal>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="OWLObjectProperty_00000000"/>
             <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_036000"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://comfocus.eu/ontology/#OWLClass_e4e159af_6a15_40dd_83ba_93d1596f1022"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="OWLObjectProperty_00000002"/>
-            <Class abbreviatedIRI="obo:FOODON_00001002"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
