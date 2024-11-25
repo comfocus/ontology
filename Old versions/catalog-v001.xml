@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1732545596164" name="duplicate:http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4" uri="COMFOCUS_for_import_20240508.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1732545596164" name="duplicate:http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4" uri="COMFOCUS_for_import_20240523.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1732545596164" name="duplicate:http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4" uri="COMFOCUS_for_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1732545596164" name="duplicate:http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4" uri="COMFOCUS_2.1%20(1).owl"/>
+        <uri id="Automatically generated entry, Timestamp=1732545596164" name="duplicate:http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4" uri="COMFOCUS_2.3.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1732545596164" name="duplicate:http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4" uri="COMFOCUS_2.2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1732545596164" name="duplicate:http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4" uri="COMFOCUS_2.0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1732545596164" name="duplicate:http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4" uri="COMFOCUS_2.1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1732545596164" name="duplicate:http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4" uri="20240607COMFOCUS.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1732545596164" name="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1" uri="CompleteContextBFO.rdf"/>
+    </group>
+</catalog>

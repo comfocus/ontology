@@ -1,0 +1,2866 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1#"
+     xml:base="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="https://schema.org/"
+     xmlns:OntoV24="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/1.0.0"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
+        <dc:description>The Food Consumer Science Ontology (COMFOCUS) is an ontology od entities related to an individual giving an expression about a target in ambient and target context.</dc:description>
+        <dc:title>Context for Food Consumer Science Ontology (COMFOCUS)</dc:title>
+        <terms:licence>http://creativecommons.org/licences/by/4.0</terms:licence>
+        <rdfs:comment>This version of ontology context was built based to the fisrt version of the COMFOCUS ontology by Barbara Koroušić Seljak</rdfs:comment>
+        <rdfs:isDefinedBy>Henssen Ruben
+van Leewen Nina
+Nedelkou Anastasia
+Royer Clarisse</rdfs:isDefinedBy>
+        <owl:versionInfo>2023-06-30</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/licence -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/licence"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#xref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#xref"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#gMonth -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#gMonth"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T11:33:36Z</dc:date>
+        <dc:description>A relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence.</dc:description>
+        <rdfs:label xml:lang="en">inheres_in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000053">
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T11:34:38Z</dc:date>
+        <dc:description>A relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence.</dc:description>
+        <rdfs:label xml:lang="en">bearer_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000058 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000058">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T12:12:03Z</dc:date>
+        <rdfs:label xml:lang="en">is_concretized_as</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000059 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000059">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <obo:IAO_0000112>An investigator reads a protocol and forms a plan to carry out a study. The plan is a realizable entity (a specifically dependent continuant) that concretizes the protocol (a generically dependent continuant), and both depend on the investigator (an independent continuant). The plan is then realized by the study (a process).</obo:IAO_0000112>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T09:21:05Z</dc:date>
+        <rdfs:label xml:lang="en">concretizes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000333 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000333">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000436"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T16:29:55Z</dc:date>
+        <rdfs:label xml:lang="en">part_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000345 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000345">
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-19T07:11:55Z</dc:date>
+        <rdfs:label xml:lang="en">is_designed_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000346 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000346">
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-19T07:12:34Z</dc:date>
+        <rdfs:label xml:lang="en">is_implemented_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000350 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000350">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-19T07:20:10Z</dc:date>
+        <rdfs:label xml:lang="en">is_about</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000362 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000362">
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-19T07:40:16Z</dc:date>
+        <rdfs:label xml:lang="en">is_answered_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000380 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000380">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000350"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000448"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-19T09:13:31Z</dc:date>
+        <rdfs:label xml:lang="en">is_quality_measurement_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000418 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000418">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000437"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T09:01:20Z</dc:date>
+        <rdfs:comment>A relation between a process and a continuant, in which the continuant is somehow involved in the process.</rdfs:comment>
+        <rdfs:label xml:lang="en">has_participant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000419 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000419">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000418"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000446"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000411"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T09:06:43Z</dc:date>
+        <rdfs:label xml:lang="en">has_specified_output</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000421 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000421">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000441"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T09:20:50Z</dc:date>
+        <rdfs:label xml:lang="en">realizes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000436 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000436">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T09:56:36Z</dc:date>
+        <rdfs:label xml:lang="en">has_part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000437 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000437">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T12:08:25Z</dc:date>
+        <rdfs:label xml:lang="en">participates_in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000441 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000441">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T12:13:05Z</dc:date>
+        <rdfs:label xml:lang="en">realized_in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000443 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000443">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000418"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T12:34:27Z</dc:date>
+        <rdfs:label xml:lang="en">has_specified_input</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000445 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000445">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000437"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000445"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000411"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T12:37:44Z</dc:date>
+        <rdfs:label xml:lang="en">is_specified_input_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000446 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000446">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000437"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000411"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T12:37:56Z</dc:date>
+        <rdfs:label xml:lang="en">is_specified_output_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000448 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000448">
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T12:53:46Z</dc:date>
+        <rdfs:label xml:lang="en">is_quality_measured_as</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000457 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000457">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000436"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000463"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T13:08:13Z</dc:date>
+        <rdfs:label xml:lang="en">has_measurement_unit_label</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000458 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000458">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000436"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T13:08:28Z</dc:date>
+        <rdfs:label xml:lang="en">has_value_specification</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000508 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000508">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000507"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000500"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T11:06:59Z</dc:date>
+        <rdfs:label xml:lang="en">is_supported_by_data</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000517 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000517">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000350"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000464"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T15:06:50Z</dc:date>
+        <rdfs:label xml:lang="en">is_duration_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000525 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000525">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000436"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000504"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000464"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T07:47:02Z</dc:date>
+        <rdfs:label xml:lang="en">has_time_stamp</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000526 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000526">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000436"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000504"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000452"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000464"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T07:48:26Z</dc:date>
+        <rdfs:label xml:lang="en">has_measurement_datum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000538 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000538">
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T09:48:32Z</dc:date>
+        <rdfs:label xml:lang="en">has_question_type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000543 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000543">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000585"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T09:50:37Z</dc:date>
+        <rdfs:label xml:lang="en">is_answer_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000585 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000585">
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T14:58:10Z</dc:date>
+        <rdfs:label xml:lang="en">answers</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000606 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000606">
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T16:12:18Z</dc:date>
+        <rdfs:label xml:lang="en">has_role</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#has_atmosphere -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#has_atmosphere">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#atmosphere"/>
+        <rdfs:comment>the site can have a certain atmosphere, the atmosphere is a quality</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#has_social_context -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#has_social_context">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#social_context"/>
+        <rdfs:comment>the social context is described as a quality of the site, it is a process that has a temporality</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#has_temporality -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#has_temporality">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdfs:comment>temporality is an occurance and a process, which has a temporal region</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://schema.org/has_language -->
+
+    <owl:ObjectProperty rdf:about="https://schema.org/has_language">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#language"/>
+        <rdfs:comment>Language can describe a data set, people, country and more. Therefore there is a link with &quot;information content entity&quot;. There is also a link to continuant because language can also describe the geographical location</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://schema.org/has_location -->
+
+    <owl:ObjectProperty rdf:about="https://schema.org/has_location">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <rdfs:comment>Location describes a process: consumption, measurements and more. location is linked to immaterial entity because it can descibe the site and spatial region</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://schema.org/has_religion -->
+
+    <owl:ObjectProperty rdf:about="https://schema.org/has_religion">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#spatial_region_quality"/>
+        <rdfs:comment>a geographic location has a religion</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://schema.org/is_located_in -->
+
+    <owl:ObjectProperty rdf:about="https://schema.org/is_located_in">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:comment>the immaterial entity is located in a spatial region, for example a school is in a city</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000378 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000378">
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-19T08:51:44Z</dc:date>
+        <rdfs:label xml:lang="en">has_specified_value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000459 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000459">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000378"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000449"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#real"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T13:09:35Z</dc:date>
+        <rdfs:label xml:lang="en">has_specified_numeric_value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000460 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000460">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000453"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T13:11:05Z</dc:date>
+        <rdfs:label xml:lang="en">has_measurement_value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000534 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000534">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T09:43:56Z</dc:date>
+        <rdfs:label xml:lang="en">has_number_of_answers</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000535 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000535">
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T09:44:14Z</dc:date>
+        <rdfs:label xml:lang="en">has_number_of_selected</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/406221003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/406221003">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000610"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T16:22:27Z</dc:date>
+        <rdfs:label xml:lang="en">health status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T17:15:23Z</dc:date>
+        <rdfs:label xml:lang="en">chemical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_59999 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_59999">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T17:16:20Z</dc:date>
+        <rdfs:label xml:lang="en">chemical substance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003339">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000453"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T17:13:23Z</dc:date>
+        <rdfs:label xml:lang="en">food calorie datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03510026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03510026">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000606"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000000"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T16:11:13Z</dc:date>
+        <rdfs:label xml:lang="en">food consumer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <rdfs:label>software</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdfs:label>information content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000350"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-19T06:56:42Z</dc:date>
+        <rdfs:label xml:lang="en">directive information content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000436"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000497"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000436"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000498"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-19T07:17:01Z</dc:date>
+        <rdfs:label xml:lang="en">plan specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000621">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000350"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-19T07:18:48Z</dc:date>
+        <dc:description>A textual entity that documents the ethical approval of some study design.</dc:description>
+        <rdfs:label xml:lang="en">ethical approval textual entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0000313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000313">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>&quot;The action, reaction, or performance of an organism in response to external or internal stimuli.&quot; [GO:GO\:0007610]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/nbo.owl"/>
+        <dc:date>2011-04-05T09:53:10Z</dc:date>
+        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasAlternativeId>NBO:0000000</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>behavior</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>behaviour</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:xref>GO:0007610</oboInOwl:xref>
+        <rdfs:label>behavior process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0000607 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000607">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <obo:IAO_0000115>&quot;Behaviour related to cognitive processes.&quot; [NBO:JH]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/nbo.owl"/>
+        <dc:date>2011-04-14T03:51:13Z</dc:date>
+        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label>cognitive behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0001845 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001845">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <obo:IAO_0000115>&quot;Behavior related to the intake of substances.&quot; [NBOC:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/nbo.owl"/>
+        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasBroadSynonym>ingest</oboInOwl:hasBroadSynonym>
+        <rdfs:label xml:lang="en">consumption behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0500000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500000">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000423"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-19T07:17:57Z</dc:date>
+        <dc:description>A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution.</dc:description>
+        <rdfs:label xml:lang="en">study design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONS_0000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONS_0000085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T13:54:25Z</dc:date>
+        <dc:description>A meal is a collection of food entities consumed at a specific occasion, such as breakfast, lunch, dinner or snack. 
+
+A meal is an eating/drinking occasion which usually accours at certain time during the day. During a meal, through processes of eating and drinking, food is consumed.</dc:description>
+        <rdfs:label xml:lang="en">meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogms.owl#SCTO_223496003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogms.owl#SCTO_223496003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:label>geographical and/or political region of the world</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogms.owl#SCTO_272379006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogms.owl#SCTO_272379006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000035"/>
+        <obo:IAO_0000115>The event hierarchy includes concepts that represent occurrences (excluding procedures and interventions).</obo:IAO_0000115>
+        <rdfs:label>event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#digital_location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#digital_location">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <rdfs:comment>Digital location is a site such as smartphone application or online supermarket (as listed options in the instances) where an experiment or study can take place</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#holiday -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#holiday">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:comment>an official day when you do not have to go to work or school
+https://dictionary.cambridge.org/dictionary/english/holiday</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#language">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:comment>language is the words, their pronunciation, and the methods of combining them used and understood by a community
+https://www.merriam-webster.com/dictionary/language</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#physical_location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#physical_location">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <rdfs:comment>Physical location is a site such as restaurant or supermarket (as listed options in the instances) where an experiment or study can take place</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#site_status -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#site_status">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#site_quality"/>
+        <rdfs:comment>the status of a site which can be home or not and can be on the go, it is not a specific location but it is a status</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#study_macro_context -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#study_macro_context">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#context_specification"/>
+        <rdfs:comment>Describes the contextual variables of a study in food consumer sciences.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000000 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T13:26:00Z</dc:date>
+        <rdfs:label xml:lang="en">person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000002 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000436"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03510026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T13:28:42Z</dc:date>
+        <dc:description>A household is a collection of person entities that occupy a housing unit.</dc:description>
+        <rdfs:label xml:lang="en">household</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000004 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>individual role</obo:IAO_0000118>
+        <obo:IAO_0000118>questionnaire respondent role</obo:IAO_0000118>
+        <obo:IAO_0000118>rater role</obo:IAO_0000118>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T13:43:07Z</dc:date>
+        <dc:description>A role realized by a person in a process such that the person causes the process, i.e., gives expression (attribute) about something (objects) in a particularly micro-context. Food consumers or raters can be many and highly diverse (say from a 25-year-old Portuguese female extrovert to a 50-year-old introvert male from Hungary).</dc:description>
+        <rdfs:label xml:lang="en">food consumer role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000005 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>questionnaire capturing and reporting agent</obo:IAO_0000118>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T13:49:44Z</dc:date>
+        <dc:description>A role realized by a person in a research process.</dc:description>
+        <rdfs:label xml:lang="en">researcher role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000007 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T13:56:03Z</dc:date>
+        <dc:description>A shopping basket is a collection of purchased food entities.</dc:description>
+        <rdfs:label xml:lang="en">food shopping basket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000008 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T13:58:09Z</dc:date>
+        <dc:description>A pantry is a collection of food entities stored at the consumer&apos;s home or at the restaurant.</dc:description>
+        <rdfs:label xml:lang="en">pantry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000009 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T13:59:34Z</dc:date>
+        <dc:description>An assortment is a collection of different food entities.</dc:description>
+        <rdfs:label xml:lang="en">food assortiment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000010 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T14:03:55Z</dc:date>
+        <dc:description>A consumption pattern is a collection of food entities characterized by types and quantities, and their combination in dishes and meals.</dc:description>
+        <rdfs:label xml:lang="en">consumption pattern</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000011 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000011">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000610"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T14:08:12Z</dc:date>
+        <dc:description>A quality which inheres in a continuant (i.e., person).</dc:description>
+        <rdfs:label xml:lang="en">socio-demographic quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000012 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000012">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000011"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T14:09:06Z</dc:date>
+        <dc:description>The number of years an individual has lived.</dc:description>
+        <rdfs:label xml:lang="en">age</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000013 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000013">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000011"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T14:09:55Z</dc:date>
+        <dc:description>‘Sex’ is a biological categorisation assigned at birth (e.g. Male, Female, Intersex) which is defined by genital anatomy (Tate, Ledbetter, &amp; Youssef, 2013). ‘Gender’ is a self-assigned identity representing a person’s “current sense of self in relation to societal gender categories” (Tate et al, 2013, p.1) and as such one’s gender identity can be the same (cis) or different (trans) from their birth assigned sex category. Gender identity has   also been defined as “a person’s deeply-felt, inherent sense of being a boy, a man, or male; a girl, a woman, or female; or an alternative gender” (Hughes et al, 2016, p.140).</dc:description>
+        <rdfs:label xml:lang="en">sex/gender identity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000018 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000018">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000011"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T14:16:48Z</dc:date>
+        <dc:description>The quality of belonging to a household.</dc:description>
+        <rdfs:label xml:lang="en">household composition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000019 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000019">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000011"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T14:19:00Z</dc:date>
+        <dc:description>Socio-economic status (SES) is a measure of an individual&apos;s economic and social position.</dc:description>
+        <rdfs:label xml:lang="en">socio-economic status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000020 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000020">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000011"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T14:19:33Z</dc:date>
+        <dc:description>Educational attainment refers to the highest formal educational programme successfully completed by an individual.</dc:description>
+        <rdfs:label xml:lang="en">education</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000338 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000010"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-19T06:51:05Z</dc:date>
+        <rdfs:label xml:lang="en">tool for survey design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000340 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000340">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000010"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-19T06:52:15Z</dc:date>
+        <rdfs:label xml:lang="en">survey tool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000411 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000411">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000421"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T08:24:29Z</dc:date>
+        <dc:description>A process that realizes a plan, which is the concretization of a plan specification.</dc:description>
+        <rdfs:label xml:lang="en">planned process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000412 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000412">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000411"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000419"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000501"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T08:25:43Z</dc:date>
+        <rdfs:label xml:lang="en">answering a questionnaire</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000416 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000416">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000411"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000419"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000501"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000411"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T08:54:49Z</dc:date>
+        <dc:description>A planned process that has a dataset of harmonised measures as its specified output.</dc:description>
+        <rdfs:label xml:lang="en">dataset creating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000417 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000417">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000411"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T08:58:57Z</dc:date>
+        <dc:description>A planned process in which a person (food consumer) or his/ her legal representative is informed about key facts (i.e., potential risks and benefits) of a process and makes a documented decision as to whether the person in question will participate.</dc:description>
+        <rdfs:label xml:lang="en">informed consent process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000423 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000423">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T09:22:37Z</dc:date>
+        <rdfs:label xml:lang="en">protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000425 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000425">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000411"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000436"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000433"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000436"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000442"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000436"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000506"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000436"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000434"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000419"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T09:33:20Z</dc:date>
+        <dc:description>An investigation is a planned process that consists of parts: planning, study design execution, documentation and which produce conclusion(s).</dc:description>
+        <rdfs:label xml:lang="en">consumer science investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000427 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000427">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000425"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T09:34:09Z</dc:date>
+        <rdfs:label xml:lang="en">hypothesis-driven investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000433 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000433">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000411"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T09:44:53Z</dc:date>
+        <rdfs:label xml:lang="en">study design execution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000434 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000434">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000418"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T09:54:06Z</dc:date>
+        <dc:description>A process of creating or modifying a plan specification.</dc:description>
+        <rdfs:label xml:lang="en">planning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000442 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000442">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000411"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000443"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T12:33:14Z</dc:date>
+        <rdfs:label xml:lang="en">documenting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000449 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000449">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T12:56:28Z</dc:date>
+        <dc:description>An information content entity that specifies a value within a classification scheme or on a quantitative scale.</dc:description>
+        <rdfs:label xml:lang="en">value specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000450 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000450">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000449"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T12:57:13Z</dc:date>
+        <dc:description>A value specification that specifies one category out of a fixed number of nominal categories.</dc:description>
+        <rdfs:label xml:lang="en">categorical value specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000452 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000452">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000449"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000458"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000449"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T12:58:30Z</dc:date>
+        <rdfs:label xml:lang="en">measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000453 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000453">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000452"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000458"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000456"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000457"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000460"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T12:59:44Z</dc:date>
+        <rdfs:label xml:lang="en">scalar measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000456 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000456">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000449"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000459"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T13:00:55Z</dc:date>
+        <dc:description>A value specification that consists of two parts: a numeral and a unit label.</dc:description>
+        <rdfs:label xml:lang="en">scalar value specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000461 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000461">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T13:14:17Z</dc:date>
+        <rdfs:label xml:lang="en">datum label</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000462 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000462">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000461"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T13:14:30Z</dc:date>
+        <dc:description>A label that is part of a categorical datum and that indicates the value of the data item on the categorical scale.</dc:description>
+        <rdfs:label xml:lang="en">categorical label</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000463 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000463">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000461"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T13:14:41Z</dc:date>
+        <dc:description>A measurement unit label is as a label that is part of a scalar measurement datum and denotes a unit of measure.</dc:description>
+        <rdfs:label xml:lang="en">measurement unit label</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000464 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000464">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000453"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000457"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000516"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000517"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T13:23:49Z</dc:date>
+        <rdfs:label xml:lang="en">time measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000465 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000465">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000464"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000380"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T13:24:13Z</dc:date>
+        <rdfs:label xml:lang="en">age measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000466 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000466">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000465"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000457"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000516"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000517"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-23T13:24:44Z</dc:date>
+        <rdfs:label xml:lang="en">age since birth measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000471 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000471">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000450"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T07:18:49Z</dc:date>
+        <rdfs:label xml:lang="en">yes/no value specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000474 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000474">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000450"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T07:21:36Z</dc:date>
+        <rdfs:label xml:lang="en">4-point agreement value specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000495 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000495">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000011"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T09:26:11Z</dc:date>
+        <rdfs:label xml:lang="en">country of birth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000496 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000496">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T10:12:42Z</dc:date>
+        <rdfs:label xml:lang="en">textual entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000497 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000497">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T10:35:49Z</dc:date>
+        <rdfs:label xml:lang="en">action specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000498 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000498">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T10:37:53Z</dc:date>
+        <rdfs:label xml:lang="en">objective specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000499 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000499">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000498"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000333"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T10:40:45Z</dc:date>
+        <rdfs:label xml:lang="en">specification of data to be generated in an investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000500 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000500">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T10:45:04Z</dc:date>
+        <rdfs:label xml:lang="en">data item</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000501 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000501">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000500"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T10:48:19Z</dc:date>
+        <dc:description>A data item that is an aggregate of other data items of the same type that have something in common.</dc:description>
+        <rdfs:label xml:lang="en">data set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000502 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000502">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000501"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000436"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000504"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T10:49:32Z</dc:date>
+        <dc:description>A data set that is an aggregate of data recording some measurement at a number of time points. The time series data set is an ordered list of pairs of time measurement data and the corresponding measurement data acquired at that time.</dc:description>
+        <rdfs:label xml:lang="en">time-sampled measurement data set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000504 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000504">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000453"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000525"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000464"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000526"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000452"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T10:51:39Z</dc:date>
+        <rdfs:label xml:lang="en">time stamped measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000506 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000506">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000411"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000443"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000500"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T11:04:55Z</dc:date>
+        <rdfs:label xml:lang="en">drawing a conclusion based on data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000507 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000507">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000446"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000506"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000508"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000500"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T11:06:04Z</dc:date>
+        <rdfs:label xml:lang="en">conclusion based on data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000516 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000516">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000463"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T15:04:13Z</dc:date>
+        <rdfs:label xml:lang="en">time unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000518 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000518">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000501"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T07:05:21Z</dc:date>
+        <rdfs:label xml:lang="en">image data set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000519 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000519">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000518"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T07:05:50Z</dc:date>
+        <rdfs:label xml:lang="en">raw image data set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000520 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000520">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000411"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000421"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000423"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000436"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000498"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000443"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000500"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T07:16:33Z</dc:date>
+        <rdfs:label xml:lang="en">data transformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000527 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000527">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000011"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T08:13:05Z</dc:date>
+        <rdfs:label xml:lang="en">country of residence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000528 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000528">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000011"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T08:13:23Z</dc:date>
+        <rdfs:label xml:lang="en">ethnicity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000529 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000529">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T09:02:00Z</dc:date>
+        <rdfs:label xml:lang="en">geographic location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000607 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000607">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000606"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000005"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000000"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T16:14:09Z</dc:date>
+        <rdfs:label xml:lang="en">researcher</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000610 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000610">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03510026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T16:41:15Z</dc:date>
+        <rdfs:label xml:lang="en">food consumer quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000611 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000611">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T16:41:52Z</dc:date>
+        <rdfs:label xml:lang="en">target quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000613 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000613">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000611"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T16:48:20Z</dc:date>
+        <rdfs:label xml:lang="en">food product quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000614 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000614">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000616"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T16:53:59Z</dc:date>
+        <rdfs:label xml:lang="en">nutritional composition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000615 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000615">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000613"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T16:54:23Z</dc:date>
+        <rdfs:label xml:lang="en">presentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000616 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000616">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000613"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T16:54:58Z</dc:date>
+        <rdfs:label xml:lang="en">objective healthfulness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000620 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000620">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000411"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000419"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000500"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T17:29:56Z</dc:date>
+        <rdfs:label xml:lang="en">answering a question</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000622 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000622">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000004"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T17:33:29Z</dc:date>
+        <rdfs:label xml:lang="en">questionnaire respondent role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000623 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000623">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000004"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T17:34:09Z</dc:date>
+        <rdfs:label xml:lang="en">questionnaire researcher role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000624 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000624">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03510026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000606"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000622"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-25T17:35:02Z</dc:date>
+        <rdfs:label xml:lang="en">questionnaire respondent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#City -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#City">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogms.owl#SCTO_223496003"/>
+        <rdfs:comment>Describes a specific city or cities that the study can be conducted in.
+
+A city is an area in which a large number of people live fairly close together. Cities usually have their own separate governments and systems for maintaining and providing utilities and transportation.
+https://www.vocabulary.com/dictionary/city</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Continent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Continent">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogms.owl#SCTO_223496003"/>
+        <rdfs:comment>Describes a continent or continents that the study can be conducted in.
+
+continent, one of the larger continuous masses of land, namely, Asia, Africa, North America, South America, Antarctica, Europe, and Australia, listed in order of size
+https://www.britannica.com/science/continent</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Country">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogms.owl#SCTO_223496003"/>
+        <rdfs:comment>Describes a specific country or countries that the study can be conducted in.
+
+A country is a spatially clearly delimited area, in which its own administration with at least partial autonomy comes to bear, which emanates from an organization exercising power
+https://www.worlddata.info/definition-country.php</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Province -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Province">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogms.owl#SCTO_223496003"/>
+        <rdfs:comment>Describes a specific province or provinces that the study can be conducted in.
+
+an administrative division or unit of a country
+https://www.dictionary.com/browse/province</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#context_specification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#context_specification">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <rdfs:comment>the set of circumstances or facts that surround a particular event, situation, etc.
+https://www.dictionary.com/browse/context</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#experiment_design_execution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#experiment_design_execution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000411"/>
+        <rdfs:comment>Experiment design execution refers to the planned process of an experiment</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#main_religion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#main_religion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#spatial_region_quality"/>
+        <rdfs:comment>Denotes the main religion of the particular country in which the study is conducted.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#site_quality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#site_quality">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:comment>the quality of a specific site</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#spatial_region_quality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#spatial_region_quality">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:comment>the quality of a spatial region</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#MediaFormat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#MediaFormat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#target_presentation_format"/>
+        <rdfs:comment>the format in which the target is presented</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#RealLifeDistantFormat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#RealLifeDistantFormat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#target_presentation_format"/>
+        <rdfs:comment>the relative distance in which the target is presented</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#TargetPlacement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#TargetPlacement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000611"/>
+        <rdfs:comment>the way in which the target context is in representation, consisting of isolation (monadic testing), series of targets (sequential monadic testing), assortment (comparable products) and basket ((non-)comparable products)</rdfs:comment>
+        <rdfs:label>TargetPlacement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Weekday -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Weekday">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#day_of_week"/>
+        <rdfs:comment>weekday refers to any day of the week except Sunday and Saturday
+https://dictionary.cambridge.org/dictionary/english/weekday</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#WeekendDay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#WeekendDay">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#day_of_week"/>
+        <rdfs:comment>A weekendday is Saturday or Sunday
+https://www.collinsdictionary.com/dictionary/english/weekend-day</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#atmosphere -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#atmosphere">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#site_quality"/>
+        <rdfs:comment>the atmosphere is a quality of a certain experiment, which can be neutral or modified, but is always present</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#day_of_month -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#day_of_month">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:comment>numerical representation of a specific calendar day within a given month</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#day_of_week -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#day_of_week">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:comment>any one of the seven days in a week
+
+https://www.vocabulary.com/dictionary/day%20of%20the%20week</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#experiment_micro_context -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#experiment_micro_context">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#context_specification"/>
+        <rdfs:comment>narrow and specific context of an experiment in the field of food consumer science</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#meal_moment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#meal_moment">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:comment>Describes the moment when a meal can be consummed</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#month_of_year -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#month_of_year">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:comment>a period of about four weeks, especially one of the twelve periods into which a year is divided
+
+https://dictionary.cambridge.org/dictionary/english/month</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#season -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#season">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:comment>one of the four periods of the year; spring, summer, autumn, or winter 
+
+https://dictionary.cambridge.org/dictionary/english/season</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#social_context -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#social_context">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#site_quality"/>
+        <rdfs:comment>interpersonal and social dynamics that surround and influence the experiment</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#target_presentation_format -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#target_presentation_format">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000615"/>
+        <rdfs:comment>the format in which the target is presented in experiment</rdfs:comment>
+        <rdfs:label>TargetPresentationFormat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#task_demand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#task_demand">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:comment>cognitive context on the individual created by a specific task demand during the experiment by emposing mental workload or/and time pressure
+
+mental workload: 
+reflects the amount of mental resources required to perform a set of concurrent tasks 
+https://www.sciencedirect.com/topics/engineering/mental-workload
+
+time pressure:
+a type of psychological stress that occurs when a person has less time available (real or perceived) than is necessary to complete a task or obtain a result
+https://www.atdata.com/blog/what-is-time-pressure#:~:text=Time%20pressure%20is%20a%20type,research%20and%20compare%20less%20criteria.</rdfs:comment>
+        <rdfs:comment>continuant, dependent ?</rdfs:comment>
+        <rdfs:comment>relate this to planned process or experiment execution</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#time_zone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#time_zone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#spatial_region_quality"/>
+        <rdfs:comment>continuant, dependent, quality</rdfs:comment>
+        <rdfs:comment>link this to temporality</rdfs:comment>
+        <rdfs:comment>one of many equal parts into which the world is divided. In any place within each part, the particular point in the day is the same, and is an hour in front of or behind that in the parts on either side
+
+https://dictionary.cambridge.org/dictionary/english/time-zone</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#year -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#year">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:comment>a period of twelve months, especially from 1 January to 31 December
+
+https://dictionary.cambridge.org/dictionary/english/year</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#App -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#App">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#digital_location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Case -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Case">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Experiment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Experiment">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Home -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Home">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#site_status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Interpretive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Interpretive">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Laboratory -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Laboratory">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#physical_location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#On_the_go -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#On_the_go">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#site_status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Online_Supermarket -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Online_Supermarket">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#digital_location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Out_of_home -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Out_of_home">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#site_status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Questionnaire_Platform -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Questionnaire_Platform">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#digital_location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Restaurant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Restaurant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#physical_location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#School -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#School">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#physical_location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Self-efficacy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Self-efficacy">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NBO_0000607"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Social_isolation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Social_isolation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#social_context"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Supermarket -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Supermarket">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#physical_location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Survey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Survey"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Virtual_Reality -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Virtual_Reality">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#digital_location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Workplace -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#Workplace">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#physical_location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000291">
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T15:18:42Z</dc:date>
+        <rdfs:label xml:lang="en">Afghanistan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000292">
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T15:18:49Z</dc:date>
+        <rdfs:label xml:lang="en">Albania</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000293 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000293">
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-18T15:18:59Z</dc:date>
+        <rdfs:label xml:lang="en">Algeria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000339 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000339">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000338"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-19T06:51:16Z</dc:date>
+        <rdfs:label xml:lang="en">EQT</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000341 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000341">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000340"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-19T06:52:34Z</dc:date>
+        <rdfs:label xml:lang="en">QualTricks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000475 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000475">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000474"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T07:23:03Z</dc:date>
+        <rdfs:label xml:lang="en">1: strongly disagree</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000476 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000476">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000474"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T07:23:17Z</dc:date>
+        <rdfs:label xml:lang="en">2: disagree</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000477 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000477">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000474"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T07:24:22Z</dc:date>
+        <rdfs:label xml:lang="en">3: agree</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000478 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000478">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_v1/COMFOCUS_00000000000000000474"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-7597-2590"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-24T07:24:33Z</dc:date>
+        <rdfs:label xml:lang="en">4: strongly agree</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Condition1_Study4_Participant112000592506 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Condition1_Study4_Participant112000592506">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#experiment_micro_context"/>
+        <OntoV24:has_atmosphere rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#NeutralAtmosphere"/>
+        <OntoV24:has_social_context rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Presence_of_household"/>
+        <OntoV24:has_temporality rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Dinner"/>
+        <OntoV24:has_temporality rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Monday"/>
+        <rdfs:comment>This instance is an example of context of the study &quot;Contextual healthy eating and self-regulation&quot;. The first complete answer of the survey was taken, with participant 112000592506. In this study, the context depends on the participant and on the measure, here called condition 1.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Europe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Europe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Continent"/>
+        <schema:has_religion rdf:resource="https://schema.org/Christianity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Netherlands -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Netherlands">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Country"/>
+        <schema:has_religion rdf:resource="https://schema.org/Christianity"/>
+        <schema:is_located_in rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Europe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Presence_of_household -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Presence_of_household">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#social_context"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Study4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Study4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#study_macro_context"/>
+        <schema:has_language rdf:resource="https://schema.org/Dutch"/>
+        <schema:has_location rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Netherlands"/>
+        <schema:has_location rdf:resource="https://schema.org/Wageningen"/>
+        <rdfs:comment>This instance is the exemple of the study &quot;Contextual healthy eating and self-regulation&quot;.
+
+
+Reference: Bouwman, E. P., Reinders, M. J., Galama, J., &amp; Verain, M. C. D. (2022). Context matters: Self-regulation of healthy eating at different eating occasions. Applied Psychology: Health and Well-Being, 14(1), 140–157. https://doi.org/10.1111/aphw.12295</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#18:00:00 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#18:00:00"/>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#2020 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#2020">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#year"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Afternoon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Afternoon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#meal_moment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Assortment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Assortment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#TargetPlacement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#AudioFormat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#AudioFormat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#MediaFormat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Basket -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Basket">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#TargetPlacement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Breakfast -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Breakfast">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#meal_moment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#DefaultChoice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#DefaultChoice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#TargetPlacement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Dinner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Dinner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#meal_moment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#DistantFormat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#DistantFormat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#RealLifeDistantFormat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Evening -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Evening">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#meal_moment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#ExtendedRealityFormat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#ExtendedRealityFormat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#MediaFormat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Framed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Framed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#TargetPlacement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Friday -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Friday">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Weekday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Isolation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Isolation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#TargetPlacement"/>
+        <rdfs:comment>Target is presented without any other target before, during or after</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Lunch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Lunch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#meal_moment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#ModifiedAtmosphere -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#ModifiedAtmosphere">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#atmosphere"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Monday -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Monday">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Weekday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Morning -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Morning">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#meal_moment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#NeutralAtmosphere -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#NeutralAtmosphere">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#atmosphere"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Night -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Night">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#meal_moment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Participant112000592506_Dataset4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Participant112000592506_Dataset4">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/FOODON_03510026"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Picture_format -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Picture_format">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#MediaFormat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Presence_of_family -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Presence_of_family">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#social_context"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Presence_of_friends -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Presence_of_friends">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#social_context"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Presence_of_stranger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Presence_of_stranger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#social_context"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Proximal_format -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Proximal_format">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#RealLifeDistantFormat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Saturday -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Saturday">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#WeekendDay"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#SeriesOfTarget -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#SeriesOfTarget">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#TargetPlacement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Snack -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Snack">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#meal_moment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#TextFormat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#TextFormat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#MediaFormat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Thursday -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Thursday">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Weekday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Tuesday -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Tuesday">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Weekday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#VideoFormat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#VideoFormat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#MediaFormat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Wednesday -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Wednesday">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/OntoV24#Weekday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://schema.org/Christianity -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Christianity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#main_religion"/>
+        <schema:has_religion rdf:resource="https://schema.org/Christianity"/>
+        <schema:is_located_in rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#Europe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://schema.org/Dutch -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Dutch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://schema.org/English -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/English">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bkorousicseljak/ontologies/2023/5/Comfocus_Contextv4#language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://schema.org/Survey -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Survey">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://schema.org/Wageningen -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Wageningen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clarisse/ontologies/2023/5/CompleteOntoContextV11#City"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
