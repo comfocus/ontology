@@ -3424,6 +3424,42 @@ Royer Clarisse</Literal>
         <Class IRI="COMFOCUS_00003667"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Electro_dermal_activity_harmonised_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Technology_Specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="frequency_of_response"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="general_psychophysiology_technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="harmonised_technology_component"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="heart_rate_technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="non-specific_skin_conductance_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="sCR_amplitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="sCR_recovery_time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="sCR_rise_time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="skin_conducatance_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="skin_conductance_response_latency"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#COMFOCUS_00000002"/>
     </Declaration>
     <Declaration>
@@ -3491,6 +3527,21 @@ Royer Clarisse</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="electro_dermal_activity_(EDA)_technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="electroencephalography_(EEG)_technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="eye_tracking_(ET)_technology)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="facial_Expression_Recognition_(FER)_technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="virtual_and_augmented_reality_(XR)_technology"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="obo:RO_0000052"/>
@@ -11832,6 +11883,13 @@ Royer Clarisse</Literal>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="COMFOCUS_00000350"/>
             <Class IRI="COMFOCUS_00000703"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="COMFOCUS_00000772"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectProperty_ee3733ad_4e9b_415a_b934_ebc3835e3a1f"/>
+            <Class IRI="electro_dermal_activity_(EDA)_technology"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -20338,6 +20396,61 @@ Royer Clarisse</Literal>
         <Class IRI="COMFOCUS_00003097"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Electro_dermal_activity_harmonised_measure"/>
+        <Class IRI="harmonised_technology_component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Electro_dermal_activity_harmonised_measure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectProperty_aebfc327_8e90_47ec_afa4_23b12c522631"/>
+            <Class IRI="electro_dermal_activity_(EDA)_technology"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Technology_Specification"/>
+        <Class abbreviatedIRI="obo:BFO_0000031"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="frequency_of_response"/>
+        <Class IRI="Electro_dermal_activity_harmonised_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="general_psychophysiology_technology"/>
+        <Class IRI="Technology_Specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="harmonised_technology_component"/>
+        <Class IRI="#OWLClass_a6306919_1736_414c_bf80_8ebce1c96850"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="heart_rate_technology"/>
+        <Class IRI="Technology_Specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="non-specific_skin_conductance_level"/>
+        <Class IRI="Electro_dermal_activity_harmonised_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="sCR_amplitude"/>
+        <Class IRI="Electro_dermal_activity_harmonised_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="sCR_recovery_time"/>
+        <Class IRI="Electro_dermal_activity_harmonised_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="sCR_rise_time"/>
+        <Class IRI="Electro_dermal_activity_harmonised_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="skin_conducatance_level"/>
+        <Class IRI="Electro_dermal_activity_harmonised_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="skin_conductance_response_latency"/>
+        <Class IRI="Electro_dermal_activity_harmonised_measure"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#COMFOCUS_00000002"/>
         <Class abbreviatedIRI="obo:IAO_0000030"/>
     </SubClassOf>
@@ -20666,6 +20779,26 @@ Royer Clarisse</Literal>
     <SubClassOf>
         <Class IRI="#language"/>
         <Class abbreviatedIRI="obo:BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="electro_dermal_activity_(EDA)_technology"/>
+        <Class IRI="Technology_Specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="electroencephalography_(EEG)_technology"/>
+        <Class IRI="Technology_Specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="eye_tracking_(ET)_technology)"/>
+        <Class IRI="Technology_Specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="facial_Expression_Recognition_(FER)_technology"/>
+        <Class IRI="Technology_Specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="virtual_and_augmented_reality_(XR)_technology"/>
+        <Class IRI="Technology_Specification"/>
     </SubClassOf>
     <DisjointClasses>
         <Class abbreviatedIRI="obo:BFO_0000019"/>
@@ -21374,6 +21507,24 @@ Royer Clarisse</Literal>
         <Class IRI="COMFOCUS_00003665"/>
         <Class IRI="COMFOCUS_00003666"/>
         <Class IRI="COMFOCUS_00003667"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="frequency_of_response"/>
+        <Class IRI="non-specific_skin_conductance_level"/>
+        <Class IRI="sCR_amplitude"/>
+        <Class IRI="sCR_recovery_time"/>
+        <Class IRI="sCR_rise_time"/>
+        <Class IRI="skin_conducatance_level"/>
+        <Class IRI="skin_conductance_response_latency"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="general_psychophysiology_technology"/>
+        <Class IRI="heart_rate_technology"/>
+        <Class IRI="electro_dermal_activity_(EDA)_technology"/>
+        <Class IRI="electroencephalography_(EEG)_technology"/>
+        <Class IRI="eye_tracking_(ET)_technology)"/>
+        <Class IRI="facial_Expression_Recognition_(FER)_technology"/>
+        <Class IRI="virtual_and_augmented_reality_(XR)_technology"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#OWLClass_832ab481_6bdd_49e2_86dd_6042773f6aef"/>
@@ -52634,6 +52785,11 @@ In Semantic differential questions, two statements are placed one at the far lef
         <Literal xml:lang="en">vimssq q1 experience symptoms_5</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasBroadSynonym"/>
+        <IRI>Electro_dermal_activity_harmonised_measure</IRI>
+        <Literal>electro dermal activity harmonised meaure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>OWLObjectProperty_00000000</IRI>
         <Literal xml:lang="en">has_behaviour</Literal>
@@ -52647,6 +52803,21 @@ In Semantic differential questions, two statements are placed one at the far lef
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>OWLObjectProperty_00000002</IRI>
         <Literal xml:lang="en">consumes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>Technology_Specification</IRI>
+        <Literal>An entity that defines the technical aspects and procedures of a technology, describing how it should function and the conditions under which it operates.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Technology_Specification</IRI>
+        <Literal>technology specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>harmonised_technology_component</IRI>
+        <Literal>harmonised technology measure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
