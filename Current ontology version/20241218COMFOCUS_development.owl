@@ -45,10 +45,6 @@
         <Literal>The COMFOCUS ontology. A comprehensive resource developed to support research and data integration within the field of food consumer science. This ontology is designed to harmonize and standardize data collected from various studies, ensuring semantic interoperability and supporting advanced analytical methods.</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal>This version of ontology context was built based to the fisrt version of the COMFOCUS ontology by Barbara Koroušić Seljak</Literal>
-    </Annotation>
-    <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <Literal xml:lang="en">Eva Valencic
 Joep Tummers
@@ -61,7 +57,7 @@ Royer Clarisse</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal>2024-11-25</Literal>
+        <Literal>2024-12-18</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_006095"/>
@@ -3424,40 +3420,193 @@ Royer Clarisse</Literal>
         <Class IRI="COMFOCUS_00003667"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Electro_dermal_activity_harmonised_measure"/>
+        <Class IRI="ElectroDermalActivityMeasure"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Technology_Specification"/>
+        <Class IRI="ElectroencephalographyMeasure"/>
     </Declaration>
     <Declaration>
-        <Class IRI="frequency_of_response"/>
+        <Class IRI="Measure"/>
     </Declaration>
     <Declaration>
-        <Class IRI="general_psychophysiology_technology"/>
+        <Class IRI="blinkDurationMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="blinkRateMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="contextualAppropriatenessMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="electrodermalActivityTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="electroencephalographyTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="embodimentMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="emergingTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="emotionalValenceMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="engagementInImmersiveExperienceMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="eventRelatedPotentialAmplitudeMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="eventRelatedPotentialLatencyMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="eyeTrackingMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="eyeTrackingTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="facialExpressionRecognitionMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="facialExpressionRecognitionTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="feelingOfPresenceMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="firstFixationDurationMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="firstFixationMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="firstFixationProportionMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="fixationLikelihoodMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="fixationProportionMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="fixationSequenceMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="fixationVisitCountMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="fixationVisitDurationMeanMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="fixationVisitDurationTotalMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="frequencyOfTheResponseMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="gazeAngleMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="gazeDirectionMeasure"/>
     </Declaration>
     <Declaration>
         <Class IRI="harmonised_technology_component"/>
     </Declaration>
     <Declaration>
-        <Class IRI="heart_rate_technology"/>
+        <Class IRI="headOrientationMeasure"/>
     </Declaration>
     <Declaration>
-        <Class IRI="non-specific_skin_conductance_level"/>
+        <Class IRI="headPositionMeasure"/>
     </Declaration>
     <Declaration>
-        <Class IRI="sCR_amplitude"/>
+        <Class IRI="heartRateBPMMeasure"/>
     </Declaration>
     <Declaration>
-        <Class IRI="sCR_recovery_time"/>
+        <Class IRI="heartRateMeasure"/>
     </Declaration>
     <Declaration>
-        <Class IRI="sCR_rise_time"/>
+        <Class IRI="heartRateTechnology"/>
     </Declaration>
     <Declaration>
-        <Class IRI="skin_conducatance_level"/>
+        <Class IRI="individualEmotionMeasure"/>
     </Declaration>
     <Declaration>
-        <Class IRI="skin_conductance_response_latency"/>
+        <Class IRI="lastFixationMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="leftEyeMovementMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="maximumHeartRateMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="minimumHeartRateMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="mouthMovementMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="nonSpecificSkinConductanceResponseFrequencyMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="participantProportionMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="percentageChangeinHeartRateMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="pupilDiameterMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="reconstructedAndVirtualEnvironmentsTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="reconstructedAndVirtualenvironmentsMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="rightEyeMovementMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="rootMeanSquareOfSuccessiveDifferencesMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="sCRAmplitudeMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="sCRLatencyMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="sCRRecoveryTimeMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="sCRRiseTimeMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="saccadeSizeMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="skinConductanceLevelMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="skinConductanceResponseMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="spectralPowerMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="standardDeviationOfAverageNormalToNormalIntervalsMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="standardDeviationOfNormaltoNormalIntervalsMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="timeAtMaximumHeartRateMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="timeToFirstFixationMeasure"/>
     </Declaration>
     <Declaration>
         <Class IRI="#COMFOCUS_00000002"/>
@@ -3527,21 +3676,6 @@ Royer Clarisse</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#language"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="electro_dermal_activity_(EDA)_technology"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="electroencephalography_(EEG)_technology"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="eye_tracking_(ET)_technology)"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="facial_Expression_Recognition_(FER)_technology"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="virtual_and_augmented_reality_(XR)_technology"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="obo:RO_0000052"/>
@@ -11883,13 +12017,6 @@ Royer Clarisse</Literal>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="COMFOCUS_00000350"/>
             <Class IRI="COMFOCUS_00000703"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="COMFOCUS_00000772"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#OWLObjectProperty_ee3733ad_4e9b_415a_b934_ebc3835e3a1f"/>
-            <Class IRI="electro_dermal_activity_(EDA)_technology"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -20396,59 +20523,263 @@ Royer Clarisse</Literal>
         <Class IRI="COMFOCUS_00003097"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Electro_dermal_activity_harmonised_measure"/>
+        <Class IRI="ElectroDermalActivityMeasure"/>
         <Class IRI="harmonised_technology_component"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Electro_dermal_activity_harmonised_measure"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#OWLObjectProperty_aebfc327_8e90_47ec_afa4_23b12c522631"/>
-            <Class IRI="electro_dermal_activity_(EDA)_technology"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="ElectroencephalographyMeasure"/>
+        <Class IRI="harmonised_technology_component"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Technology_Specification"/>
-        <Class abbreviatedIRI="obo:BFO_0000031"/>
+        <Class IRI="Measure"/>
+        <Class IRI="harmonised_technology_component"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="frequency_of_response"/>
-        <Class IRI="Electro_dermal_activity_harmonised_measure"/>
+        <Class IRI="blinkDurationMeasure"/>
+        <Class IRI="eyeTrackingMeasure"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="general_psychophysiology_technology"/>
-        <Class IRI="Technology_Specification"/>
+        <Class IRI="blinkRateMeasure"/>
+        <Class IRI="eyeTrackingMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="contextualAppropriatenessMeasure"/>
+        <Class IRI="reconstructedAndVirtualenvironmentsMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="electrodermalActivityTechnology"/>
+        <Class IRI="emergingTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="electroencephalographyTechnology"/>
+        <Class IRI="emergingTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="embodimentMeasure"/>
+        <Class IRI="reconstructedAndVirtualenvironmentsMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="emergingTechnology"/>
+        <Class abbreviatedIRI="obo:BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="emotionalValenceMeasure"/>
+        <Class IRI="facialExpressionRecognitionMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="engagementInImmersiveExperienceMeasure"/>
+        <Class IRI="reconstructedAndVirtualenvironmentsMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="eventRelatedPotentialAmplitudeMeasure"/>
+        <Class IRI="ElectroencephalographyMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="eventRelatedPotentialLatencyMeasure"/>
+        <Class IRI="ElectroencephalographyMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="eyeTrackingMeasure"/>
+        <Class IRI="harmonised_technology_component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="eyeTrackingTechnology"/>
+        <Class IRI="emergingTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="facialExpressionRecognitionMeasure"/>
+        <Class IRI="harmonised_technology_component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="facialExpressionRecognitionTechnology"/>
+        <Class IRI="emergingTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="feelingOfPresenceMeasure"/>
+        <Class IRI="reconstructedAndVirtualenvironmentsMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="firstFixationDurationMeasure"/>
+        <Class IRI="eyeTrackingMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="firstFixationMeasure"/>
+        <Class IRI="eyeTrackingMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="firstFixationProportionMeasure"/>
+        <Class IRI="eyeTrackingMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="fixationLikelihoodMeasure"/>
+        <Class IRI="eyeTrackingMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="fixationProportionMeasure"/>
+        <Class IRI="eyeTrackingMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="fixationSequenceMeasure"/>
+        <Class IRI="eyeTrackingMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="fixationVisitCountMeasure"/>
+        <Class IRI="eyeTrackingMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="fixationVisitDurationMeanMeasure"/>
+        <Class IRI="eyeTrackingMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="fixationVisitDurationTotalMeasure"/>
+        <Class IRI="eyeTrackingMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="frequencyOfTheResponseMeasure"/>
+        <Class IRI="ElectroDermalActivityMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="gazeAngleMeasure"/>
+        <Class IRI="facialExpressionRecognitionMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="gazeDirectionMeasure"/>
+        <Class IRI="facialExpressionRecognitionMeasure"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="harmonised_technology_component"/>
         <Class IRI="#OWLClass_a6306919_1736_414c_bf80_8ebce1c96850"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="heart_rate_technology"/>
-        <Class IRI="Technology_Specification"/>
+        <Class IRI="headOrientationMeasure"/>
+        <Class IRI="facialExpressionRecognitionMeasure"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="non-specific_skin_conductance_level"/>
-        <Class IRI="Electro_dermal_activity_harmonised_measure"/>
+        <Class IRI="headPositionMeasure"/>
+        <Class IRI="facialExpressionRecognitionMeasure"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="sCR_amplitude"/>
-        <Class IRI="Electro_dermal_activity_harmonised_measure"/>
+        <Class IRI="heartRateBPMMeasure"/>
+        <Class IRI="heartRateMeasure"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="sCR_recovery_time"/>
-        <Class IRI="Electro_dermal_activity_harmonised_measure"/>
+        <Class IRI="heartRateMeasure"/>
+        <Class IRI="harmonised_technology_component"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="sCR_rise_time"/>
-        <Class IRI="Electro_dermal_activity_harmonised_measure"/>
+        <Class IRI="heartRateTechnology"/>
+        <Class IRI="emergingTechnology"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="skin_conducatance_level"/>
-        <Class IRI="Electro_dermal_activity_harmonised_measure"/>
+        <Class IRI="individualEmotionMeasure"/>
+        <Class IRI="facialExpressionRecognitionMeasure"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="skin_conductance_response_latency"/>
-        <Class IRI="Electro_dermal_activity_harmonised_measure"/>
+        <Class IRI="lastFixationMeasure"/>
+        <Class IRI="eyeTrackingMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="leftEyeMovementMeasure"/>
+        <Class IRI="facialExpressionRecognitionMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="maximumHeartRateMeasure"/>
+        <Class IRI="heartRateMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="minimumHeartRateMeasure"/>
+        <Class IRI="heartRateMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="mouthMovementMeasure"/>
+        <Class IRI="facialExpressionRecognitionMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="nonSpecificSkinConductanceResponseFrequencyMeasure"/>
+        <Class IRI="ElectroDermalActivityMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="participantProportionMeasure"/>
+        <Class IRI="eyeTrackingMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="percentageChangeinHeartRateMeasure"/>
+        <Class IRI="heartRateMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="pupilDiameterMeasure"/>
+        <Class IRI="eyeTrackingMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="reconstructedAndVirtualEnvironmentsTechnology"/>
+        <Class IRI="emergingTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="reconstructedAndVirtualenvironmentsMeasure"/>
+        <Class IRI="harmonised_technology_component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="rightEyeMovementMeasure"/>
+        <Class IRI="facialExpressionRecognitionMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="rootMeanSquareOfSuccessiveDifferencesMeasure"/>
+        <Class IRI="heartRateMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="sCRAmplitudeMeasure"/>
+        <Class IRI="ElectroDermalActivityMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="sCRLatencyMeasure"/>
+        <Class IRI="ElectroDermalActivityMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="sCRRecoveryTimeMeasure"/>
+        <Class IRI="ElectroDermalActivityMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="sCRRiseTimeMeasure"/>
+        <Class IRI="ElectroDermalActivityMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="saccadeSizeMeasure"/>
+        <Class IRI="eyeTrackingMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="skinConductanceLevelMeasure"/>
+        <Class IRI="ElectroDermalActivityMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="skinConductanceResponseMeasure"/>
+        <Class IRI="ElectroDermalActivityMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="skinConductanceResponseMeasure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectProperty_aebfc327_8e90_47ec_afa4_23b12c522631"/>
+            <Class IRI="electrodermalActivityTechnology"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="spectralPowerMeasure"/>
+        <Class IRI="ElectroencephalographyMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="standardDeviationOfAverageNormalToNormalIntervalsMeasure"/>
+        <Class IRI="heartRateMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="standardDeviationOfNormaltoNormalIntervalsMeasure"/>
+        <Class IRI="heartRateMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="timeAtMaximumHeartRateMeasure"/>
+        <Class IRI="heartRateMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="timeToFirstFixationMeasure"/>
+        <Class IRI="eyeTrackingMeasure"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#COMFOCUS_00000002"/>
@@ -20779,26 +21110,6 @@ Royer Clarisse</Literal>
     <SubClassOf>
         <Class IRI="#language"/>
         <Class abbreviatedIRI="obo:BFO_0000019"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="electro_dermal_activity_(EDA)_technology"/>
-        <Class IRI="Technology_Specification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="electroencephalography_(EEG)_technology"/>
-        <Class IRI="Technology_Specification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="eye_tracking_(ET)_technology)"/>
-        <Class IRI="Technology_Specification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="facial_Expression_Recognition_(FER)_technology"/>
-        <Class IRI="Technology_Specification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="virtual_and_augmented_reality_(XR)_technology"/>
-        <Class IRI="Technology_Specification"/>
     </SubClassOf>
     <DisjointClasses>
         <Class abbreviatedIRI="obo:BFO_0000019"/>
@@ -21509,22 +21820,26 @@ Royer Clarisse</Literal>
         <Class IRI="COMFOCUS_00003667"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="frequency_of_response"/>
-        <Class IRI="non-specific_skin_conductance_level"/>
-        <Class IRI="sCR_amplitude"/>
-        <Class IRI="sCR_recovery_time"/>
-        <Class IRI="sCR_rise_time"/>
-        <Class IRI="skin_conducatance_level"/>
-        <Class IRI="skin_conductance_response_latency"/>
+        <Class IRI="electrodermalActivityTechnology"/>
+        <Class IRI="electroencephalographyTechnology"/>
+        <Class IRI="eyeTrackingTechnology"/>
+        <Class IRI="facialExpressionRecognitionTechnology"/>
+        <Class IRI="heartRateTechnology"/>
+        <Class IRI="reconstructedAndVirtualEnvironmentsTechnology"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="general_psychophysiology_technology"/>
-        <Class IRI="heart_rate_technology"/>
-        <Class IRI="electro_dermal_activity_(EDA)_technology"/>
-        <Class IRI="electroencephalography_(EEG)_technology"/>
-        <Class IRI="eye_tracking_(ET)_technology)"/>
-        <Class IRI="facial_Expression_Recognition_(FER)_technology"/>
-        <Class IRI="virtual_and_augmented_reality_(XR)_technology"/>
+        <Class IRI="electrodermalActivityTechnology"/>
+        <Class IRI="reconstructedAndVirtualEnvironmentsTechnology"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="frequencyOfTheResponseMeasure"/>
+        <Class IRI="nonSpecificSkinConductanceResponseFrequencyMeasure"/>
+        <Class IRI="sCRAmplitudeMeasure"/>
+        <Class IRI="sCRLatencyMeasure"/>
+        <Class IRI="sCRRecoveryTimeMeasure"/>
+        <Class IRI="sCRRiseTimeMeasure"/>
+        <Class IRI="skinConductanceLevelMeasure"/>
+        <Class IRI="skinConductanceResponseMeasure"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#OWLClass_832ab481_6bdd_49e2_86dd_6042773f6aef"/>
@@ -52786,7 +53101,7 @@ In Semantic differential questions, two statements are placed one at the far lef
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasBroadSynonym"/>
-        <IRI>Electro_dermal_activity_harmonised_measure</IRI>
+        <IRI>ElectroDermalActivityMeasure</IRI>
         <Literal>electro dermal activity harmonised meaure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -52806,13 +53121,13 @@ In Semantic differential questions, two statements are placed one at the far lef
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>Technology_Specification</IRI>
+        <IRI>emergingTechnology</IRI>
         <Literal>An entity that defines the technical aspects and procedures of a technology, describing how it should function and the conditions under which it operates.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Technology_Specification</IRI>
-        <Literal>technology specification</Literal>
+        <IRI>emergingTechnology</IRI>
+        <Literal>emergingTechnologies</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
