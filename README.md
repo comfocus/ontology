@@ -2,7 +2,7 @@
 
 ![COMFOCUS Logo](images/images.png) 
 
-Welcome to the official repository for the COMFOCUS Ontology, a comprehensive resource developed to support research and data integration within the field of food consumer science. This ontology is designed to harmonize and standardize data collected from various studies, ensuring semantic interoperability and supporting advanced analytical methods.
+Welcome to the official repository for the COMFOCUS Ontology, a comprehensive resource developed to support research and data integration within the field of food consumer science. This ontology is designed to harmonise and standardise data collected from various studies, ensuring semantic interoperability and supporting advanced analytical methods.
 
 ## Repository Structure
 
